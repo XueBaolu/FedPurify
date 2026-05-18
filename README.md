@@ -51,7 +51,9 @@ python fed_purify.py
 | `model_name` | Model architecture used in FL. |
 | `model_path` | Path to the saved parameters of the backdoored model. |
 | `save_dir` | Directory for saving the generated synthetic data. |
-| `framework` | The framework for FL training, AlignIns or FedUV. |
+| `framework` | Federated learning framework used for training (e.g., AlignIns or FedUV). |
+| `attack` | Backdoor attack method used during federated learning training. |
+| `trigger_type` | Type of trigger used in the backdoor attack. |
 
 ## Citation
 If you found this work useful for your research, please cite our paper:
