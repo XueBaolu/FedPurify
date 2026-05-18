@@ -1,0 +1,4 @@
+--dataset cifar10 \
+--batch_size 128 \
+--model_name wrn-16-2 \
+--lr 0.01 \
