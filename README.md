@@ -45,6 +45,13 @@ Before execution, please configure the required hyperparameters in the `configs/
 
 python fed_purify.py
 ```
+| Argument | Description |
+|---|---|
+| `dataset` | Dataset used for the main task. |
+| `model_name` | Model architecture used in FL. |
+| `model_path` | Path to the saved parameters of the backdoored model. |
+| `save_dir` | Directory for saving the generated synthetic data. |
+| `framework` | The framework for FL training, AlignIns or FedUV. |
 
 ## Citation
 If you found this work useful for your research, please cite our paper:
@@ -52,7 +59,7 @@ If you found this work useful for your research, please cite our paper:
 @article{,
   title={FedPurify: Knowledge-Preserving Backdoor Defense with Data-Free Purification in Federated Learning},
   author={Baolu Xue, Hanyuan Zheng, Tianxing Man, Bing Chen},
-  journal={},
+  journal={ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)},
   year={2026}
 }
 ```
