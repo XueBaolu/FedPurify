@@ -1,7 +1,7 @@
 A benchmark of data-free backdoor purification in Federated Learning from paper "FedPurify: Knowledge-Preserving Backdoor Defense with
 Data-Free Purification in Federated Learning"
 
-![Framework](imgs/figure.png)
+![Framework](framework.png)
 
 ## Quick Start
 
